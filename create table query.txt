@@ -1,0 +1,7 @@
+CREATE TABLE ObjectData (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Object_ID INT,
+    Object_Name VARCHAR(255),
+    Tags VARCHAR(255),
+    Object_Type VARCHAR(50)
+);
